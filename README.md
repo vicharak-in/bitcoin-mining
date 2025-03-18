@@ -42,19 +42,15 @@ Implementation Details
 
 FPGA Mining Setup
 
-Hardware Requirements: FPGA board with sufficient logic elements (e.g., Xilinx or Altera FPGAs).
+Hardware Requirements: FPGA board with sufficient logic elements in our case we are using Efinity T120 FPGA.
 
 Development Tools:
 
 Verilog or VHDL for hardware description.
 
-MATLAB for simulation and verification.
-
-Xilinx Vivado or Intel Quartus for FPGA synthesis and implementation.
+Efinix for FPGA synthesis and implementation.
 
 Mining Software:
-
-Cgminer or BFGminer for pool connectivity.
 
 Custom Python-based Stratum proxy for job handling.
 
@@ -70,7 +66,7 @@ Final Hash Computation: Outputs the valid hash for comparison with the target.
 
 Performance Evaluation
 
-Hash Rate: Number of hashes computed per second.
+Hash Rate: Number of hashes computed per second is 350.
 
 Power Efficiency: Hashes per joule of energy consumed.
 
